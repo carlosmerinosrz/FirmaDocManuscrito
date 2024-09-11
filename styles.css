@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+#pdf-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+#pdf-canvas {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.signature-pad {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 100px;
+    bottom: 20px;  /* Mueve la firma hacia abajo */
+    right: 20px;   /* Mueve la firma hacia la derecha */
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: crosshair;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button#clear-signature {
+    background-color: #dc3545;
+}
+
+button:hover {
+    background-color: #218838;
+}
